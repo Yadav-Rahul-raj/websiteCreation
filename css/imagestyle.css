@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:'Poppins',sans-serif;
+}
+        .option{
+    background: rgb(19, 8, 179);
+    padding: 10px;
+    justify-content: center;
+    text-align: right;
+}
+span .fa{
+    color: white;
+}
+.option .right-text{
+    position: absolute;
+    text-align: left;
+    justify-content: center;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+}
+.option a{
+    color: white;
+    text-decoration: none;
+}
+h1{
+    font-size: 40px;
+}
+body{
+    background: rgb(241, 241, 243);
+}
+
+.dropbtn {
+    background-color: #3498DB;
+    color: white;
+    margin: 15px;
+    padding: 6px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: #2980B9;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown a:hover {background-color: #ddd;}
+  
+  .show {display: block;}
+h1{
+    text-align: center;
+    color: forestgreen;
+    margin: 30px 0 50px;
+}
+.gallery{
+    margin: 10px 50px;
+}
+.gallery img{
+    width: 230px;
+    padding: 5px;
+    filter: grayscale(80%);
+    transition: 1s;
+}
+.gallery img:hover{
+    filter: grayscale(0%);
+    transform: scale(1.1);
+}

@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:'Poppins',sans-serif;
+}
+.option{
+    background: rgb(19, 8, 179);
+    padding: 10px;
+    justify-content: center;
+    text-align: right;
+}
+span .fa{
+    color: white;
+}
+.option .right-text{
+    position: absolute;
+    text-align: left;
+    justify-content: center;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+}
+.option a{
+    color: white;
+    text-decoration: none;
+}
+h1{
+    font-size: 40px;
+}
+body{
+    background: rgb(241, 241, 243);
+}
+
+.dropbtn {
+    background-color: #3498DB;
+    color: white;
+    margin: 15px;
+    padding: 6px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: #2980B9;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown a:hover {background-color: #ddd;}
+  
+  .show {display: block;}
+section{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+}
+section video{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+section .navigation{
+    position: absolute;
+    bottom: 40px;
+    left: 4%;
+    transform: translateX(-50px);
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section .navigation li{
+    list-style: none;
+    cursor: pointer;
+    margin: 0 10px;
+    border-radius: 4px;
+    background: #fff;
+    padding: 3px 3px 0;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+.menu{
+    position: relative;
+    opacity:0.7;
+}
+.menu:hover{
+    opacity: 1;
+}
+section .navigation li:hover{
+    opacity: 1;
+}
+section .navigation li img{
+    width: 120px;
+    transition: 0.5s;
+}
+section .navigation li img:hover{
+    width: 150px;
+}

@@ -1,0 +1,124 @@
+
+.title-text img{
+    filter: hue-rotate(350deg);
+}
+#testimonial{
+    width: 100%;
+    padding: 70px 0;
+}
+.testimonial-row{
+    padding-top: 60px;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+
+    position: relative;
+    flex-wrap: wrap;
+    z-index: 1;
+}
+.testimonial-row .testimonial-col{
+    flex-basis: 28%;
+    padding: 10px;
+    margin-bottom: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px 3px #9cf0e7;
+    cursor: pointer;
+
+    position: relative;
+    overflow: hidden;
+    box-shadow: 15px 15px 35px rgba(255, 187, 1, 0.45),
+                -3px -5px 35px rgba(255, 209, 5, 0.4);
+    background: rgba(255, 255, 255, 0.1);
+    border-top:1px solid rgba(255,255,255,0.5);
+    border-left: 1px solid rgba(255,255,255,0.5);
+    backdrop-filter: blur(5px);
+}
+.testimonial-col p{
+    font-size: 14px;
+    color:rgb(0, 0, 0);
+}
+.user{
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    color:rgb(0, 0, 0);
+
+}
+.user img{
+    width: 40px;
+    margin-right: 20px;
+    border-radius: 3px;  
+
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+    background: rgba(255,255,255,0.1);
+    border-top:1px solid rgba(255,255,255,0.5);
+    border-left: 1px solid rgba(255,255,255,0.5);
+}
+.user-info .fa{
+    margin-left: 10px;
+    color: #db9c3d;
+    font-size: 20px;
+}
+.user-info small{
+    color: #ff5e00;
+}
+#registers{
+    min-height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.register-login{
+    margin-bottom: 50px;
+    height: 160px;
+    width: 600px;
+    background-image: linear-gradient(to right,#ad8344 0%,#cb9b51 15%,#f6e27a 45%,#f0eaa1 50%,#f6e27a 55%,#cb9b51 85%, #ad8344 100%);
+    padding: 15px;
+    
+    justify-content: center;
+    text-align: center;
+    border-radius: 5px 25px 5px 25px ;
+}
+.register-login p{
+    font-size: 25px;
+    font-weight: 700;
+}
+.register-login button{
+    font-size: 18px;
+    font-weight: 400;
+    background: rgb(27, 27, 27);
+    padding: 10px;
+    outline: none;
+    border-radius: 20px;
+    border-style: none;
+    cursor: pointer;
+}
+.register-login button:hover{
+    background: rgb(0, 0, 0);
+}
+.register-login a{
+    text-decoration: none;
+    color: #fff;
+}
+.register-login a:hover{
+    color: #ad8344;
+}
+@media screen and (max-width:770px){
+    .testimonial-col{
+        flex-basis: 100%;
+    }
+    .testimonial-row{
+        display: block;
+    }
+    .register-login{
+        height: 160px;
+        width: 300px;
+        padding: 5px;
+    }
+    .register-login p{
+        font-size: 18px;
+    }
+}

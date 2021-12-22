@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:'Poppins',sans-serif;
+}
+.option{
+    background: rgb(19, 8, 179);
+    padding: 10px;
+    justify-content: center;
+    text-align: right;
+}
+span .fa{
+    color: white;
+}
+.option .right-text{
+    position: absolute;
+    text-align: left;
+    justify-content: center;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+}
+.option a{
+    color: white;
+    text-decoration: none;
+}
+h1{
+    font-size: 40px;
+}
+body{
+    background: rgb(241, 241, 243);
+}
+/*------------------------search bar-------------------------
+.topnav{
+    margin-left: 50px;
+}
+  .topnav input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: 1px solid purple;
+  }
+  
+  .topnav .search-container button {
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .topnav .search-container button:hover {
+    background: #ccc;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnav .search-container {
+      float: none;
+    }
+    .topnav .search-container form{
+        display: flex;
+        justify-content: center;
+        text-align: left;
+        width: 100%;
+        margin: 0;
+        padding: 14px;
+    }
+    .topnav input[type=text] {
+      border: 1px solid rgb(0, 17, 253);  
+      width: 100%;
+    }
+  }*/
+  /**********Dropdown list************/
+  .dropbtn {
+    background-color: #3498DB;
+    color: white;
+    margin: 15px;
+    padding: 6px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: #2980B9;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown a:hover {background-color: #ddd;}
+  
+  .show {display: block;}
+
+  /* -----------------feedback --------------------*/
+#feedback{
+    position: fixed;
+    left: 90%;
+    top: 600px;
+    padding: 10px;
+    background: rgb(172, 236, 252);
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgb(153, 150, 150);
+}
+#feedback a{
+    text-decoration: none;
+    color: #000;
+}
+.file-sharing{
+    background: rgb(233, 252, 250);
+    margin: 50px;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 40px rgb(234, 0, 255);
+}
+.download-link{
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    background: rgb(255, 252, 252);
+    box-shadow: 0 0 15px rgb(185, 184, 184);
+    margin-left: 30px;
+    font-size: 30px;
+}
+.download-link .fa{
+    color: #fc2d2d;
+}
+.download-link span{
+    font-size: 20px;
+}
+.heading{
+    color: red;
+    font-size: 22px;
+    font-weight: 500;
+}
